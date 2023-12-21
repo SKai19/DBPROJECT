@@ -1,0 +1,43 @@
+/* ProfileManagement.css */
+
+.profile-management-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-management-form input,
+  .profile-management-form select,
+  .profile-management-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* This ensures padding doesn't affect the overall width */
+  }
+  
+  .profile-management-form button {
+    background-color: #5cb85c; /* A green color; change as desired */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile-management-form button:hover {
+    background-color: #4cae4c; /* A slightly darker green on hover */
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 768px) {
+    .profile-management-form {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+  
+  /* You can add more styles and customizations as needed */
+  

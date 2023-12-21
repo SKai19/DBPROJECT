@@ -1,0 +1,21 @@
+/* HomePage.css */
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .content-block {
+    max-width: 200px; /* Limit the width of each block */
+    text-align: center;
+  }
+  
+  .content-image {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styles as needed */
+  

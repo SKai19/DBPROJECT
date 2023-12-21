@@ -1,0 +1,32 @@
+/* ContentList.css */
+
+.content-list {
+    position: absolute;
+    background-color: #E8DEE9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    font-family: 'Baskerville';
+  }
+  
+  .content-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .content-list li {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .content-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .content-list li:hover {
+    background-color: #f1f1f1;
+  }
+  

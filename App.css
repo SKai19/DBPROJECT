@@ -1,0 +1,45 @@
+.App-nav {
+  background-color: #2d2834;
+  padding: 10px;
+  text-align: center;
+}
+
+.App-nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.App-header {
+  color: #50006b;
+  padding: 30px;
+  text-align: center;
+}
+.App-logo {
+  height: 100px; /* Adjust the size as needed */
+  margin: 20px 0;
+}
+.App-banner {
+  background-color: #50006b; 
+  padding: 40px; /* Changes size of my banner */
+  text-align: center;
+}
+
+.banner-button {
+  background-color: #fff; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  color: #964caf; /* Button text color */
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px 4px 4px;
+  cursor: pointer;
+}
+
+/* Add hover effect for buttons */
+.banner-button:hover {
+  background-color: #8845a0;
+}
